@@ -20,3 +20,13 @@ print(nums[1])
 print(nums[2])
 
 print(nums[0:4])
+
+
+print("=" * 24)
+
+
+index_to_print = 2555
+if index_to_print < len(nums):
+    print(nums[index_to_print])
+else:
+    print(f"索引 {index_to_print} 超出範圍")
